@@ -20,8 +20,4 @@ public class QuitScript : MonoBehaviour
     public void QuitIt() {
         Application.Quit();
     }
-
-    public void restart() {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
 }
